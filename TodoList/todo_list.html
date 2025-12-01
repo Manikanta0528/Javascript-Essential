@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ToDo List</title>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 20px; }
+      ul { padding-left: 0; list-style: none; }
+      li { padding: 6px 0; display: flex; align-items: center; gap: 8px; }
+      label.completed { text-decoration: line-through; color: gray; }
+    </style>
+</head>
+<body>
+    <h1>ToDo List</h1>
+
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button id="addTaskBtn">Add Task</button>
+
+    <ul id="taskList">
+        <!-- Tasks will be displayed here -->
+    </ul>
+
+    <button id="clearCompletedBtn">Clear Completed</button>
+
+    <script src="./todo_list.js"></script>
+</body>
+</html>
